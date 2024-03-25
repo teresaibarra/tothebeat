@@ -1,5 +1,19 @@
 // taken from https://github.com/UlloLabs/tutorial.HR-WebBLE/tree/master
 
+
+document.addEventListener('click', () => {
+    // Check if the AudioContext is suspended and resume it if necessary
+    if (Tone.context.state === 'suspended') {
+        Tone.context.resume();
+    }
+});
+
+//create a synth and connect it to the main output (your speakers)
+const synth = new Tone.Synth().toDestination();
+//play a middle 'C' for the duration of an 8th note
+synth.triggerAttackRelease("C4", "8n");
+
+
 var BPM = 0.0 ;
 var heart = document.getElementById("heartSprite") ;
 let p = document.getElementById("dataText") ;
