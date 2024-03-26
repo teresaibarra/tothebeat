@@ -1,12 +1,21 @@
 // taken from https://github.com/UlloLabs/tutorial.HR-WebBLE/tree/master
 
 
-document.addEventListener('click', () => {
+// Function to resume the AudioContext if it's suspended
+function resumeAudioContext() {
     // Check if the AudioContext is suspended and resume it if necessary
     if (Tone.context.state === 'suspended') {
         Tone.context.resume();
     }
-});
+}
+
+// Handle click event
+document.addEventListener('click', resumeAudioContext);
+
+// Handle touchstart event (tap)
+document.addEventListener('touchstart', resumeAudioContext);
+
+
 
 //create a synth and connect it to the main output (your speakers)
 const synth = new Tone.Synth().toDestination();
