@@ -7,6 +7,7 @@ function resumeAudioContext() {
     if (Tone.context.state === 'suspended') {
         Tone.context.resume();
     }
+    alert("AudioContext resumed.");
 }
 
 // Handle click event
