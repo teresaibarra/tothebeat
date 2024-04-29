@@ -6,3 +6,6 @@ This project is very much a work in progress, so it's not the prettiest.
 
 ### Usage
 Run `python ble_info.py`, then run the MaxMSP patch.
+
+To play around with the "heart rate", check out this GIF:
+![2024-04-18 21 26 33](https://github.com/teresaibarra/tothebeat/assets/7967489/ee3486e3-2126-4181-9212-8f44d0cd3f70)
