@@ -10,6 +10,7 @@ This project was created at [Recurse Center](http://recurse.com/) in March 2024.
 
 ### Without a heart rate monitor
 You don't need a heart rate monitor to play around with the Max patch. See the following gif:
+
 ![2024-05-05 01 19 39](https://github.com/teresaibarra/tothebeat/assets/7967489/dd350e6e-0521-496b-9e53-16960e4d7a07)
 
 
