@@ -20,4 +20,4 @@ In short, run `python3 serve_hr.py`, then run the Max patch.
 
 This script should work with any wearable/Bluetooth Low Energy device that transmits Heart Rate Measurement data. The device originally used to create this script can be found [here](https://www.amazon.com/gp/product/B0CRQW6T18), but a cheaper one should work fine.
 
-To identify the device's name, use a tool such as [Bluetility](https://github.com/jnross/Bluetility). Once identified, replace `DEVICE_NAME` in the `serve_hr.py` script with the correct name."
+To identify the device's name, use a tool such as [Bluetility](https://github.com/jnross/Bluetility). Once identified, replace `DEVICE_NAME` in the `serve_hr.py` script with the correct name.
