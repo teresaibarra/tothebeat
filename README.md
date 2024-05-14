@@ -9,8 +9,10 @@ This project was created at [Recurse Center](http://recurse.com/) in March 2024.
 ### Usage
 
 ### Without a heart rate monitor
-You don't have to have to use a heart rate monitor to play around with the Max patch. See the following gif:
-![2024-04-18 21 26 33](https://github.com/teresaibarra/tothebeat/assets/7967489/ee3486e3-2126-4181-9212-8f44d0cd3f70)
+You don't need a heart rate monitor to play around with the Max patch. See the following gif:
+
+![2024-05-05 01 19 39](https://github.com/teresaibarra/tothebeat/assets/7967489/dd350e6e-0521-496b-9e53-16960e4d7a07)
+
 
 
 ### With a heart rate monitor
@@ -18,4 +20,4 @@ In short, run `python3 serve_hr.py`, then run the Max patch.
 
 This script should work with any wearable/Bluetooth Low Energy device that transmits Heart Rate Measurement data. The device originally used to create this script can be found [here](https://www.amazon.com/gp/product/B0CRQW6T18), but a cheaper one should work fine.
 
-To identify the device's name, use a tool such as [Bluetility](https://github.com/jnross/Bluetility). Once identified, replace `DEVICE_NAME` in the `serve_hr.py` script with the correct name."
+To identify the device's name, use a tool such as [Bluetility](https://github.com/jnross/Bluetility). Once identified, replace `DEVICE_NAME` in the `serve_hr.py` script with the correct name.
